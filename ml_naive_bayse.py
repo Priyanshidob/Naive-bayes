@@ -61,10 +61,11 @@ from sklearn.metrics import confusion_matrix, accuracy_score,precision_score, re
 cm=confusion_matrix(y_test,y_pred)
 cm
 
+"""f.accuracy, precision and recall"""
 accuracy=accuracy_score(y_test, y_pred)
 print(f"Accuracy: {accuracy}")
 
-"""f. Create a Comparison table for all 3 algorithms wherein you have the accuracy, precision and recall"""
+
 
 precision=precision_score(y_test, y_pred,average='weighted')
 print(f"Precision: {precision}")
