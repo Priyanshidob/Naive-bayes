@@ -1,1 +1,6 @@
-project is based on how the Naive-Bayes classification model work.
+Project is based on how the Naive-Bayes classification model work.
+
+Project includes all necessary steps to train and test a model like a data preprocessing , data spliting ,model training and
+compute a confution matrix ,accuracy ,recall and precition to identify how accurate model work.
+
+I use iris.csv data set to tain a model it gives 1.0 accuracy which is very good.
